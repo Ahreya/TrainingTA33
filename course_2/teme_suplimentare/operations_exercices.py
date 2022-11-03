@@ -23,7 +23,7 @@
 
 #### Exercitiul 6 ####
 # Avem a = 0, b = 1, c = 0, d = 1
-# Afiseaza ce returneaza urmatoarele not(a or b and c or d)
+# Afiseaza ce returneaza urmatoarea operatie not(a or b and c or d)
 
 #### Exercitiul 7 ####
 # Avem s = 1 si x = 0
