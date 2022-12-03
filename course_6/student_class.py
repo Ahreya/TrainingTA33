@@ -11,14 +11,15 @@ class Student:
     # Referirea la variabila de clasă numar_studenti se face cu notaţia Student.numar_studenti şi nu cu self.numar_studenti
     Student.numar_studenti += 1
 
-    
-# O variabilă de obiect cu același nume ca o variabilă de clasă, va ascunde variabila de clasă faţă de metodele clasei! 
-# Metoda nr_studenti este în fapt o metodă  a clasei şi nu a instanţei. Asta înseamnă că trebuie să o definim cu declaraţia static method. 
   def test_bursier(self):
+    
    if self.medie>=9.50:
     print("Bursa de merit")
    elif 8.50<=self.medie<9.50:
     print("Bursa studiu")
+
+# O variabilă de obiect cu același nume ca o variabilă de clasă, va ascunde variabila de clasă faţă de metodele clasei! 
+# Metoda nr_studenti este în fapt o metodă  a clasei şi nu a instanţei. Asta înseamnă că trebuie să o definim cu declaraţia static method. 
 
   def nr_studenti():
     print("Exista",Student.numar_studenti,"instante.")
